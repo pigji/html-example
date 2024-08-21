@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>input요소</title>
+</head>
+<body>
+  <form>
+    <!-- tabindex="값" : Tab키를 눌렀을때 순서를 지정 -->
+    <!-- autofocus:입력창이 자동으로 선택되어 있는 상태 의미 -->
+    <!-- required:필수 입력창 의미(입력하지 않으면 경고창 뜸)-->
+    <input tabindex="1" type="text" autofocus required>
+
+    <!-- multiple: 다중파일 지정 -->
+    <input tabindex="0" type="file" multiple name="file_selection">
+
+    <!-- step:"입력값" : 입력 값만큼 숫자가 증가/감소 -->
+     <!-- placeholder: 입력창 안에 안내문구를 의미 -->
+    <input tabindex="3" type="number" step="5" placeholder="숫자만 입력해주세요">
+
+    <!-- checked : 자동 체크된 상태 -->
+    <input tabindex="2" type="checkbox" checked>
+    
+    <!-- submit : 전송버튼 -->
+    <input tabindex="-1" type="submit" value="전송">
+  </form>
+   
+</body>
+</html>
