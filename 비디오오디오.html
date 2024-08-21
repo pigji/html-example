@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>비디오&amp;오디오 요소</title>
+</head>
+<body>
+  <h1>비디오 요소</h1>
+  <p>영상 파일을 표시합니다</p>
+  <!-- 브라우저가 모든 파일형식을 지원하는 것은 아니므로 표준형식의 비디오 파일을 사용 -->
+   <!-- muted:음소거 의미, width:너비 , height:높이 , poster:첫화면이 이미지로 나옴(썸네일 의미) -->
+   <video src="imags/travel.mp4" muted controls width="360" height="250" poster="imags/thumb.jpg" <p>sample-video</p></video>
+
+  <br>
+  <h1>오디오 파일을 표시</h1>
+  <audio src="imags/bass.mp3" controls preload="none"> <p>bass</p></audio>
+
+  <br>
+  <h1>source 요소</h1>
+  <p>이 요소를 사용하면 하나의 audio, video요소에 여러개의 미디어소스를 표시할 수 있습니다</p>
+
+  <audio controls preload="none">
+    <source src="imags/bass.mp3" type="audio/mp3">
+    <source src="imags/bass.ogg" type="audio/ogg">
+    <p>bass</p>
+  </audio>
+  
+</body>
+</html>
