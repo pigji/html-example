@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form요소</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>입력 양식</legend>
+      이름 : <br>
+      <input type="text" name="username"> <br>  <!-- input태그는 인라인요소 -->
+      이메일 : <br>
+      <input type="email" name="email"> <br><br>
+      <input type="submit" value="전송">
+    </fieldset>
+  </form>
+
+  <!-- 구분선 -->
+  <form>
+    <fieldset>
+        <legend>Text Inputs</legend>
+        
+        <!-- Text Input : 문자 입력창 -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text">
+        <br>
+
+        <!-- Password Input : 입력창(입력하는 내용이 가려짐) -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <!-- Email Input : 이메일형식 입력창 -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <!-- URL Input : 주소 입력창 -->
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url">
+        <br>
+
+        <!-- Tel Input : 전화번호 형식 입력창 -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel">
+        <br>
+
+        <!-- Number Input : 숫자만 입력 가능(1씩 증가/감소 가능) -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number">
+        <br>
+
+        <!-- Range Input : 게이지 표시 -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100">
+        <br>
+
+        <!-- Date Input : 날짜 입력창 -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br>
+
+        <!-- Time Input : 시간 입력창 -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        <br>
+
+        <!-- Color Input : 색상 입력창 -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+
+        <!-- Checkbox Input : 체크박스 -->
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br>
+
+        <!-- Radio Input : 라디오버튼 -->
+        <label for="radio1">Radio 1:</label>
+        <input type="radio" id="radio1" name="radio" value="1">
+        <label for="radio2">Radio 2:</label>
+        <input type="radio" id="radio2" name="radio" value="2">
+        <br>
+
+        <!-- File Input : 파일 업로드 -->
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file">
+        <br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" id="hidden" name="hidden" value="hiddenValue">
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Inputs</legend>
+
+        <!-- Submit Button : 전송버튼 -->
+        <input type="submit" value="Submit">
+        <br>
+
+        <!-- Reset Button : 새로고침 버튼 -->
+        <input type="reset" value="Reset">
+        <br>
+
+        <!-- Button : 일반 버튼타입-->
+        <input type="button" value="Click Me" onclick="alert('Button clicked!')">
+        <br>
+    </fieldset>
+</form>
+</body>
+</html>
