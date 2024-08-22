@@ -1,5 +1,5 @@
 <div align=center>
-  ![header](https://capsule-render.vercel.app/api?type=${waving}&color=auto&height=${200}&section=header&text=${그린컴퓨터 아카데미}&fontSize=${50}&animation=${twinkling})
+  ![slice](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&text=그린컴퓨터%20아카데미👋&fontAlign=70&rotate=13&fontAlignY=25&desc=seulzzang's%20GitHub&descAlign=70.&descAlignY=44)
 
   <h3> 국비지원_JAVA 네이티브 웹 & 앱 개발자 </h3> <br>
   
