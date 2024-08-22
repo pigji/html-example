@@ -1,7 +1,5 @@
 <div align=center>
-  ![slice](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&text=그린컴퓨터%20아카데미👋&fontAlign=70&rotate=13&fontAlignY=25&desc=seulzzang's%20GitHub&descAlign=70.&descAlignY=44)
-
-  <h3> 국비지원_JAVA 네이티브 웹 & 앱 개발자 </h3> <br>
+  <h3># :computer: 그린컴퓨터 아카데미 </h3> <br>
   
   <h2> :raised_hands:교육 목표 :raised_hands: </h2>
   <h4> O2O 서비스 플랫폼 개발에 필요한 프로그래밍, ICT 기술활용, 서비스기획 등을 진행할 수 있는 인력양성을 목표로 한다. </h4> <br><br>
