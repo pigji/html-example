@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form요소 연습문제</title>
+</head>
+<body>
+  <h2>문제1. 직원정보 입력</h2>
+  <form>
+    <!-- table태그를 사용하면 텍스트 정렬됨 -->
+    <table>
+      <tr>
+        <td><label for="name">이름  :</label></td>
+        <td><input type="text" idn="name" name="name" required></td> <!-- required : 필수 입력폼 -->
+      </tr>
+      <tr>
+        <td><label for="email">이메일  :</label></td>
+        <td><input type="email" idn="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="phone">전화번호  :</label></td>
+        <td><input type="tel" idn="phone" name="phone" required></td>
+      </tr>
+      <tr>
+        <td><label for="department">부서</label></td>
+        <td>
+          <select name="department" id="department" required>
+            <option>인사팀</option>
+            <option>IT팀</option>
+            <option>영업팀</option>
+            <option>마케팅팀</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="제출하기">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
