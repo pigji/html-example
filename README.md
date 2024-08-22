@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=그린컴퓨터 아카데미&fontSize=90&fontColor=blue" />
+   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=INSURANCE&fontSize=90&fontColor=blue" />
   
   <h2> :raised_hands:교육 목표 :raised_hands: </h2>
   <h4> O2O 서비스 플랫폼 개발에 필요한 프로그래밍, ICT 기술활용, 서비스기획 등을 진행할 수 있는 인력양성을 목표로 한다. </h4> <br><br>
