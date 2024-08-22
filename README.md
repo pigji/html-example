@@ -26,7 +26,7 @@
    HTML태그 마무리, CSS <br> <br>  
 
   <h2> :hammer: Tools :hammer:: </h2>
-  <h4> <img src="https://img.shields.io/badge/eclipse-2C2255?style=flat-square&logo=visualstudio&logoColor=white"/> </h4> <br><br>
+  <h4> <img src="https://img.shields.io/badge/eclipse-2C2255?style=flat-square&logo=Visual Studio&logoColor=white"/> </h4> <br><br>
   
   <h2> :blossom: 사용한 Skill :blossom: </h2>
   <h4> <img src="https://img.shields.io/badge/HTML-E04F11?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1342DD?style=flat-square&logo=CSS3&logoColor=white"/><img src="https://img.shields.io/badge/git-24292F?style=flat-square&logo=github&logoColor=white"/> </h4> <br><br>
