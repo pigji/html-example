@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=d6e0f0&height=200&section=header&text=이젠컴퓨터아카데미학원&fontSize=75&fontColor=8d93ab" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=d6e0f0&height=200&section=header&text=그린컴퓨터아카데미학원&fontSize=75&fontColor=random" />
   <h3> 국비지원_JAVA 네이티브 웹 & 앱 개발자 </h3> <br>
   
   <h2> :raised_hands:교육 목표 :raised_hands: </h2>
